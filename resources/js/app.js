@@ -6,11 +6,14 @@ import {ValidationProvider} from 'vee-validate/dist/vee-validate.full'
 import {ValidationObserver} from 'vee-validate'
 import App from './components/App'
 import route from './module/routes'
+import Vuetify from 'vuetify'
 
-Vue.component('ValidationProvider', ValidationProvider);
-Vue.component('ValidationObserver', ValidationObserver);
-Vue.use(VueAxios);
-Vue.use(VueRouter);
+Vue.component('ValidationProvider', ValidationProvider)
+Vue.component('ValidationObserver', ValidationObserver)
+Vue.use(VueAxios)
+Vue.use(VueRouter)
+Vue.use(Vuetify)
+
 
 const routes = route;
 const router = new VueRouter({ mode: 'history', routes: routes});
