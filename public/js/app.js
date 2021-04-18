@@ -41436,8 +41436,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
 /* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/App */ "./resources/js/components/App.vue");
 /* harmony import */ var _module_routes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./module/routes */ "./resources/js/module/routes.js");
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // window.Vue = require('vue');
-
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
@@ -41449,11 +41448,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // window
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('ValidationProvider', vee_validate_dist_vee_validate_full__WEBPACK_IMPORTED_MODULE_3__["ValidationProvider"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('ValidationObserver', vee_validate__WEBPACK_IMPORTED_MODULE_4__["ValidationObserver"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(axios__WEBPACK_IMPORTED_MODULE_1___default.a);
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]); // Vue.component('tbl-user', require('./components/User.vue').default);
-// const app = new Vue({
-//     el: '#app',
-// });
-
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
 var routes = _module_routes__WEBPACK_IMPORTED_MODULE_6__["default"];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
   mode: 'history',
@@ -41461,12 +41456,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a(vue__WEBPACK_IMPORTED_MODULE_0___default.a.util.extend({
   router: router
-}, _components_App__WEBPACK_IMPORTED_MODULE_5__["default"])).$mount('#app'); // const app = new Vue(
-//     Vue.util.extend(
-//         router,
-//         App
-//     )
-// ).$mount('#app');
+}, _components_App__WEBPACK_IMPORTED_MODULE_5__["default"])).$mount('#app');
 
 /***/ }),
 
